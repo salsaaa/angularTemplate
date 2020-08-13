@@ -1,0 +1,34 @@
+@import '../../../../sass/abstract/variables';
+.feature-card{
+    width: 23vw;
+    height: 23vw;
+    background-color:$primary-dark ;
+    border-radius: 4%;
+    text-align: center;
+    &__icon{
+        font-size: 4vw;
+        color: $primary-pale;
+        padding-top: 2vw;
+    }
+    &__text
+    {
+        &__title{
+            font-size: 1.9vw;
+            padding: 1.7vw 0 0 0;
+            font-weight: 600;
+
+        }
+        &__paraghraph{
+            font-size: 1.1vw;
+            padding: 0 2vw;    
+            line-height: 1.7vw;
+            color: $primary-pale;
+        }
+
+    }
+    &__readmore{
+        font-size: 1.3vw;
+        font-weight: 600;
+        padding: 1vw 0;
+    }
+}

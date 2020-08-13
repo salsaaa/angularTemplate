@@ -1,0 +1,25 @@
+@import '../../../../sass/abstract/variables';
+.rounded-btn{
+    // padding: 1.4rem 4.5rem;
+    color: white;
+    border-radius: 50px;
+    &:hover{
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    // font-size: 1.5rem;
+    //  @media only screen and (max-width: 768px) {
+    //             /* For mobile phones: */
+    //             font-size: 1.5rem;
+    //             padding: 1.3rem 4rem;
+
+    //         } 
+    //         @media only screen and (max-width: 1176px) {
+    //             padding: 1.2rem 3rem;
+    //             font-size: 1rem;
+    //         } 
+    //         @media only screen and (max-width: 1062px) {
+    //             padding: 1.1rem 2.3rem;
+    //             font-size: 0.5rem;
+    //         } 
+}

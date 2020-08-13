@@ -1,0 +1,42 @@
+@import '.././../../../sass/abstract/variables';
+@import '../../../../sass/abstract/variables';
+.why-us{
+    color: white;
+    width: $page-width;
+    height: 130%;
+    background-color: $primary;
+    &__text{
+        width: 100%;
+        text-align: center;
+        &__title{
+            font-weight: 400;
+            font-size: 2.7vw;
+            padding: 5vw 0 1.5vw 0
+        }
+        &__paraghraph{
+            font-size: 1.1vw;
+            padding: 0 19vw 1vw 19vw;
+        }    
+    }
+    &__cards{
+        width: 97%;
+        padding: 3vw 0 7vw 0;
+    }
+    &__numbers{
+        &__item{
+            text-align: center;
+            &__number{
+                font-size: 4vw;
+                margin: 0;
+                padding: 2vw 0;
+                font-weight: 600;
+                
+            }
+            &__text{
+                font-size: 1vw;
+                color: #cae8fa;
+                columns: $primary-pale;
+            }
+        }
+    }
+}

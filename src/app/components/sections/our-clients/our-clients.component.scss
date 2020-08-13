@@ -1,0 +1,51 @@
+@import '../../../../sass/abstract/variables';
+.our-clients{
+    width: $page-width;
+    height: 53vw;
+    margin: 6vw 0 0 0;
+    background-color: #ECF5FF;
+    overflow: hidden;
+
+    &__title{
+        color: #283D50;
+        font-size: 2.7vw;
+        padding: 5vw 0 3vw 0;
+    text-align: center;
+    overflow: hidden;
+
+
+    }
+    &__desc{
+    font-size: 1.1vw;
+    text-align: center;
+    padding:0 28vw 5vw 28vw;
+    overflow: hidden;
+    color: #7B747C;
+
+    }
+    &__clients{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 1.7px;
+    overflow: hidden;
+
+
+        &__img{
+          
+            width: 50%; 
+            padding: 4vw;
+    overflow: hidden;
+
+        }
+        &__client{
+            width: 20vw;
+            height: 12vw;
+            background-color: white; 
+            text-align: center;
+    overflow: hidden;
+
+        
+
+        }
+    }
+}

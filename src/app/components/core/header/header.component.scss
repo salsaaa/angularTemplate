@@ -1,0 +1,91 @@
+@import '../../../../sass/abstract/variables';
+.intro-bg{
+    background-image: url('../../../../assets/images/intro-bg.png');
+    height: 46.5vw;
+    width: $page-width;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    // @media only screen and (max-width: 820px) {
+    //     width: 81rem;
+    // }
+    &__navbar{
+        height: 6vw;
+        background-color: white;
+        border-bottom: 1px solid $primary;
+        &__logo{
+            color: $primary;
+            padding: 2vw 0;
+            font-size: 2vw;
+        }
+        &__menu-items{
+            &__item{
+                text-decoration: none;
+            color: $primary;
+            font-size: 1.1vw;
+            padding: 1.25vw;
+            &:hover{
+                cursor: pointer;
+                color: $primary-mid-light;
+            }
+            }
+        }
+    }
+    &__text{
+        width: 100%;
+        font-weight: 600;
+        line-height: 3vw;
+
+        // @media only screen and (max-width: 1176px) {
+        //     font-size: 2rem;
+        // } 
+        // @media only screen and (max-width: 1062px) {
+        //     font-size: 1.5rem;
+        // } 
+
+        &--white{
+            color: white;
+        font-size: 3.5vw;
+
+        }
+        &--primary-light{
+        font-size: 3.5vw;
+
+            color: $primary-light;
+            text-decoration: underline;
+        }
+        &__btn{
+            padding: 2.7vw 100% 0.4vw  0;
+            width: 25.8vw;
+            font-weight: 400;
+            // @media only screen and (max-width: 1176px) {
+            //     padding: 0 100% 0 0;
+            //     width: 25rem;
+            // } 
+            // @media only screen and (max-width: 1062px) {
+            //     padding: 0 100% 0 0;
+            //     width: 17rem;
+            // } 
+        }
+    }
+    &__svg{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url('../../../../assets/images/intro-img.svg');
+        height: 37vw;
+        width: 100%;
+        // @media only screen and (max-width: 1254px) {
+        //     height: 50rem;
+        //     width: 46rem;
+        // }
+        // @media only screen and (max-width: 920px) {
+        //     height: 46rem;
+        //     width: 42rem;
+        // }
+        // @media only screen and (max-width: 860px) {
+        //     height: 42rem;
+        //     width: 38rem;
+        // }
+    }
+}

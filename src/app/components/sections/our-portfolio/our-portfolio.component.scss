@@ -1,0 +1,43 @@
+@import '../../../../sass/abstract/variables';
+
+.our-portfolio{
+    width: $page-width;
+    text-align: center;
+    color: #283D50;
+    &__text{
+
+        &__title{
+            font-weight: 100;
+            font-size: 2.7vw;
+            padding: 5vw 0 1.5vw 0;
+            font-weight: 400;
+        }
+    }
+    &__btns{
+        text-align: center;
+        width: 24vw !important;
+        height: 4vw;
+        &__btn{
+        }
+    }
+    &__jpg{
+        align-items: end;
+        padding: 2vw;
+        width: 83.5%;
+        &__img{
+            
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 90%;
+            border-radius: 1rem;
+            margin: 1vw 0;
+            &--mid{
+            }
+            &--small{
+            }
+            &--large{
+            }
+        }
+    }
+}

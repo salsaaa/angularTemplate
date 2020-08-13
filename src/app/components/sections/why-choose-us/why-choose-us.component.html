@@ -1,0 +1,34 @@
+<section class="why-us">
+    <div class="container colflexDir">
+        <div class="why-us__text">
+            <h1 class="why-us__text__title">Why choose us?</h1>
+            <p class="why-us__text__paraghraph">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+                Lorem
+                Ipsum has been the industry's</p>
+        </div>
+        <div class="why-us__cards container">
+
+            <app-feature-card *ngFor="let card of cards" [card]="card"></app-feature-card>
+
+        </div>
+        <div class="why-us__numbers container">
+            <div class="why-us__numbers__item">
+                <h1 class="why-us__numbers__item__number">274</h1>
+                <p class="why-us__numbers__item__text">Clients</p>
+            </div>
+            <div class="why-us__numbers__item">
+                <h1 class="why-us__numbers__item__number">421</h1>
+                <p class="why-us__numbers__item__text">Projects</p>
+            </div>
+            <div class="why-us__numbers__item">
+                <h1 class="why-us__numbers__item__number">1,364</h1>
+                <p class="why-us__numbers__item__text">Hours Of Support</p>
+            </div>
+            <div class="why-us__numbers__item">
+                <h1 class="why-us__numbers__item__number">18</h1>
+                <p class="why-us__numbers__item__text">Hard Workers</p>
+            </div>
+        </div>
+    </div>
+</section>

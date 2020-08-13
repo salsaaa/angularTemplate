@@ -1,0 +1,77 @@
+@import '../abstract/variables';
+.about-Us__card{
+    padding:1vw 0;
+    &__text{
+        width: 100%;
+        text-align: left;
+        line-height: 1.9vw;
+        padding: 0 2vw 0 0;
+        &__header{
+            width: 100%;
+            margin: 0;
+            padding: 1vw 0;
+            font-size: 1.2vw;
+            line-height: 1.9vw;
+            &--bold{
+                font-weight: 700;
+                font-size: 1.9vw;
+                line-height: 2.3vw;
+            }
+        }
+        &__body{
+            width: 100%;
+            margin: 0;
+        }
+        &__paraghraph{
+            font-size: 1.1vw;
+            padding: 0.7vw 0 0 1vw
+        }
+        &--secondCard{
+            margin: 0;
+            padding: 1vw 0 1vw 2vw;
+            width: 32vw;
+        }
+        &--thirdCard{
+            width: 38vw;
+            margin: 0;
+        }
+    }
+    &__svg{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        // background-image: url('../../../../assets/images/intro-img.svg');
+        width: 100%;
+        &__img{
+            width: 100%;
+            &--secondCard{
+                padding: 0 0 5vw 0
+            }
+        }
+    }
+}
+.icon{
+    position: relative;
+    color: $primary-mid-light !important;
+    &--circle{
+        // position: absolute;
+        font-size: 5vw;
+        
+    }
+    &--insideCircleIcon{
+        position: absolute;
+        font-size: 2vw;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        bottom: 50%;
+
+    }
+}
+.noMargin{
+    margin: 0 !important;
+    &--bold{
+
+        font-size: 1.5vw !important;
+        font-weight: 700 !important;
+    }
+}

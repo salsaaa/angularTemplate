@@ -1,0 +1,33 @@
+<div id="contact" class="contact-us container colflexDir">
+    <div class="contact-us__title">Contact Us</div>
+    <div class="contact-us__details container">
+        <div class="contact-us__details__map">
+            <agm-map [latitude]="lat" [longitude]="lng">
+                <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+            </agm-map>
+        </div>
+        <div class="contact-us__details__info container colflexDir">
+            <div class="contact-us__details__info__company container">
+                <div class="contact-us__details__info__company--element container">
+                    <fa-icon class="icon" [icon]="addressIcon"></fa-icon>
+                    <div class="icon__text">A108 Adam Street NY 535022</div>
+                </div>
+                <div class="contact-us__details__info__company--element container">
+                    <fa-icon class="icon" [icon]="envelopeIcon"></fa-icon>
+                    <div class="icon__text">info@example.com</div>
+                </div>
+                <div class="contact-us__details__info__company--element container">
+                    <fa-icon class="icon" [icon]="phoneIcon"></fa-icon>
+                    <div class="icon__text">+1 1234 56789</div>
+                </div>
+
+
+            </div>
+            <div class="contact-us__details__info__form">
+              <app-contact-us-form></app-contact-us-form>
+            </div>
+        </div>
+
+    </div>
+
+</div>

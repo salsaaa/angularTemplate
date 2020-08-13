@@ -1,0 +1,42 @@
+.carousel-slide-content{
+    border: 1px solid #D6DFE7;
+    box-shadow: 2px 2px;
+}
+.testimonials{
+    padding: 4vw 0;
+    text-align: center;
+    width: 64vw;
+    &__title{
+        font-size: 2.7vw;
+    color: #283D50;
+    padding: 0 0 5vw 0;
+    }
+    &__personal-data{
+        &__img{
+            &--rounded{
+                border-radius: 50%;
+                width: 100%;
+            }
+        }
+        &__data{
+            width: 100%;
+            text-align: left;
+            line-height: 1.9vw;
+            padding: 0 0 0 1.3vw;
+            &__name{
+                font-size: 1.6vw;
+                font-weight: 500;
+            }
+            &__job{
+                color: #A4A6A7;
+                font-size: 1.1vw;
+            }
+            &__desc{
+                font-size: 1.2vw;
+                padding-top:0.7vw;
+                color: #7B747C;
+
+            }
+        }
+    }
+}
