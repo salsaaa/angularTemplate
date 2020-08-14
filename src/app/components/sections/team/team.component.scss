@@ -13,9 +13,16 @@
     color: #7B747C;
     }
     &__photos{
+        height: 20vw;
         &__photo{
             border-radius: 50%;
             width:23%;
+            transition: all 0.5s ease-in-out;
+            &:hover{
+            transform: scale(1.08);
+            cursor: pointer;
+      
+            }
         }
     }
 }

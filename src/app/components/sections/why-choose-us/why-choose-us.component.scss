@@ -30,6 +30,13 @@
                 margin: 0;
                 padding: 2vw 0;
                 font-weight: 600;
+                transition: all 0.5s ease-in-out;
+                &:hover{
+                transform: scale(1.08);
+                color: rgba(245, 245, 245, 0.849);
+                cursor: pointer;
+          
+                }
                 
             }
             &__text{

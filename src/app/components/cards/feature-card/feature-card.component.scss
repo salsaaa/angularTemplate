@@ -5,6 +5,12 @@
     background-color:$primary-dark ;
     border-radius: 4%;
     text-align: center;
+    transition: all 0.5s ease-in-out;
+    &:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+
+    }
     &__icon{
         font-size: 4vw;
         color: $primary-pale;
